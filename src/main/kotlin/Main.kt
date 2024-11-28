@@ -19,7 +19,8 @@ fun mainMenu(): Int {
          > |   0) Exit                      |
          > ----------------------------------
          > ==>> """.trimMargin(">"))
-    return readIntNotNull()
+    return readIntNotNull("Choose an option: ")
+
 }
 
 fun runMenu() {
@@ -60,4 +61,3 @@ fun exitApp(){
 fun main() {
     runMenu()
 }
-
