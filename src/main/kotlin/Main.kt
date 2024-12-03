@@ -8,7 +8,7 @@ private val logger = KotlinLogging.logger{}
 fun mainMenu(): Int {
     print(""" 
          > ----------------------------------
-         > |        NOTE KEEPER APP         |
+         > |       VENUE ARTIST APP         |
          > ----------------------------------
          > | NOTE MENU                      |
          > |   1) Add a note                |
